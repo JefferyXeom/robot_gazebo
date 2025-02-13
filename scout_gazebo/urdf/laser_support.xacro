@@ -8,7 +8,7 @@
     <xacro:property name="support_y_size" value="0.0" /> <!-- 支架安装的y坐标 -->
     <xacro:property name="support_z_size" value="${base_z_size}" /> <!-- 支架安装的z坐标:底盘高度 / 2 + 支架高度 / 2  -->
 
-    <xacro:property name="support_m" value="0.02" /> <!-- 支架质量 -->
+    <xacro:property name="support_m" value="0.000000001" /> <!-- 支架质量 0.02 -->
 
     <link name="support">
         <visual>
